@@ -15,7 +15,7 @@ module load conda
 #You can either concatanetate all the forward and all the reverse
 #reads and run the pair of the concataneted FASTQ file through this pipeline
 #or run each pair from each flowcell lane individually and then concatante the 
-#bam file for the downstream processing.
+#bam file for the downstream processing (more recomended!).
 
 
 
