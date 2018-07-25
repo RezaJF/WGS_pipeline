@@ -6,7 +6,7 @@
 
 module load conda
 
-#This pipeline aligne and reads against the reference file
+#This pipeline alignes the reads against the reference genome
 #and generate the high quality variant call at the end. 
 #In order to run this pipeline on Iridis you need to specify the
 #PATH to bwa, GATK, PICHARD and SAMTOOLS.
