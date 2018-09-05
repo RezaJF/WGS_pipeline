@@ -145,7 +145,7 @@ subprocess.call([
 
 # ------------ GATK -------------------------------------------
 # ## Realigned
-vcf_file = '{}/dbsnp_138.hg19.excluding_sites_after_129.vcf'.format(DATA_PATH)
+vcf_file = '{}/dbsnp_138.hg19.excluding_sites_after_139.vcf'.format(DATA_PATH)
 sites_vcf_file = '{}/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf'.format(DATA_PATH)
 output_interval_log = '{}/output.intervals.log'.format(DATA_PATH)
 output_realigner_interval = '{}/output.ForIndelRealigner_reads.intervals'.format(DATA_PATH)
