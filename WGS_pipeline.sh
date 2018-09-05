@@ -4,14 +4,13 @@
 #PBS -l mem=600gb
 #cd $PBS_O_WORKDIR
 
-module load conda
 
 #This pipeline alignes the reads against the reference genome
 #and generate the high quality variant call at the end. 
 #In order to run this pipeline on Iridis you need to specify the
 #PATH to bwa, GATK, PICHARD and SAMTOOLS.
 
-#The whole genome data usually arives as multiple FastQ file;
+#The whole genome data usually arives as multiple FastQ files;
 #You can either concatanetate all the forward and all the reverse
 #reads and run the pair of the concataneted FASTQ file through this pipeline
 #or run each pair from each flowcell lane individually and then concatante the 
